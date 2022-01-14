@@ -1,0 +1,13 @@
+.banner {
+  height: 60vh;
+  width: 100%;
+  position: relative;
+}
+.banner-image {
+  width: 100%;
+  height: 60vh;
+}
+.about-image {
+  height: 300px;
+  width: 100%;
+}

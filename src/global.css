@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@1,100;1,300&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  overflow-x: -moz-hidden-unscrollable;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.bg-custom-primary {
+  background-color: #1167b1 !important;
+}
+.bg-custom-secondary {
+  background-color: #e4e0d4 !important;
+}
+.bg-custom-light-primary {
+  background-color: #f2f9ff !important;
+}
+.color-primary {
+  color: #1167b1 !important;
+}
+.h-100 {
+  height: 100% !important;
+}
+
+.about-us {
+  font-size: 1.2rem;
+  color: rgb(110, 106, 106);
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
