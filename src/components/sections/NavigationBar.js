@@ -1,5 +1,5 @@
 import React from 'react'
-import './navbar.css'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faFacebookSquare,
@@ -11,14 +11,14 @@ export default function NavigationBar() {
   return (
     <div>
       <Container fluid="md">
-        <div className="px-5 py-3 d-flex justify-content-between align-center px-">
-          <div>
+        <div className="px-md-0 px-5 py-3 d-flex justify-content-between align-center px-">
+          <div className="fb-linlk">
             <FontAwesomeIcon
               icon={faFacebookSquare}
               style={{ fontSize: '30px', color: '#3B5998' }}
             />
           </div>
-          <div className="d-flex">
+          <div className="contact-info">
             <div className="d-flex align-items-center mx-3">
               <FontAwesomeIcon
                 icon={faPhoneAlt}
@@ -49,24 +49,13 @@ export default function NavigationBar() {
       </Container>
       <div className="bg-custom-secondary">
         <Container fluid="md">
-          <div className="text-left">
+          <div className="text-left md-text-center">
             <div className="text-center d-inline-block">
               <img src="./images/logo.jpeg" alt="logo" className="logo" />
               <h3>Titas Money Exchange</h3>
             </div>
           </div>
         </Container>
-      </div>
-      <div className="bg-custom-primary px-5 d-flex justify-content-center align-items-center">
-        <div className="navBar">
-          <ul>
-            <li className="nav-item">HOME</li>
-            <li className="nav-item">SERVICES</li>
-            <li className="nav-item">ABOUT US</li>
-            <li className="nav-item">GALLERY</li>
-            <li className="nav-item">CONTACT US</li>
-          </ul>
-        </div>
       </div>
     </div>
   )

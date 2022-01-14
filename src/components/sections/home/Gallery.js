@@ -11,17 +11,19 @@ export default function Gallery() {
     { image: 'service-4.jpg' },
   ]
   return (
-    <Container fluid="md">
+    <div className="mt-5 py-5" style={{ height: 'auto', minHeight: '500px' }}>
       <h3 className="my-3 py-3 border-bottom text-center">GALLERY</h3>
-      <div>
-        <Row>
-          {data.map((item, i) => (
-            <Col md={3}>
-              <Service image={item.image} title={null} />
-            </Col>
-          ))}
-        </Row>
-      </div>
-    </Container>
+      <Container fluid="md">
+        <div>
+          <Row>
+            {data.map((item, i) => (
+              <Col lg={3} md={3} sm={6}>
+                <Service image={item.image} title={null} />
+              </Col>
+            ))}
+          </Row>
+        </div>
+      </Container>
+    </div>
   )
 }

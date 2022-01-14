@@ -14,77 +14,48 @@ export default function Footer() {
         <Container>
           <Row>
             <Col lg={3} md={6} sm={12}>
-              <h3>About Us</h3>
+              <h3 className="text-uppercase">ABOUT US</h3>
               <p>
-                সত্ত্বেও এখানকার শিক্ষার্থীরা একবিংশ শতাব্দীর চ্যালেঞ্জ
-                মোকাবেলায় একটি সমন্বিত, স্বয়ংসম্পূর্ণ আধুনিক Digital প্রযুক্তি
-                সমৃদ্ধ শিক্ষা প্রতিষ্ঠানের অভাবে পিছিয়ে পড়ছে প্রতিনিয়ত। এর
-                বাস্তবতা দেখা যায় প্রতিবছর Medical, BUET ও ঢাকা বিশ্ববিদ্যালয়সহ
+                We, Titas Money Exchange, located in the heart of Dhaka, are one
+                of the leading currency exchange agents in the city & one-stop
+                solution for all your foreign exchange needs. Talk to our
+                qualified employees and get your problem resolved within no
+                time. We offer best deal in money exchange and our policies,
+                terms, and conditions are very transparent. We provide fast,
+                friendly, and efficient services. Thus, offering you a vast
+                array of services under one roof.
               </p>
             </Col>
             <Col lg={3} md={6} sm={12}>
-              <h3>Quick Links</h3>
+              <h3 className="text-uppercase">OUR SERVICES</h3>
               <ul>
-                <li>
-                  <a href="#" className="text-light">
-                    Home
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-light">
-                    About Us
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-light">
-                    Contact
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-light">
-                    Admission
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-light">
-                    Terms & conditions
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-light">
-                    Privacy & policy
-                  </a>
-                </li>
+                <li>Buy and Sell US Dollars</li>
+                <li>Endorse Encashment</li>
+                <li>Money Transfer</li>
+                <li>Deal in foreign Currency</li>
               </ul>
             </Col>
             <Col lg={3} md={6} sm={12}>
-              <h3>Address</h3>
+              <h3 className="text-uppercase">ADDRESS</h3>
               <p>
-                ২৮ নং আশরাফ আলি রোড, সানরাইজ গ্রামার স্কুল (ভবন-১), পাথরঘাটা,
-                চট্টগ্রাম
+                Hotel Inter Continental (Ex. Sheraton), 1 Minto Road, Dhaka-1000
+                Bangladesh
               </p>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.572618374539!2d91.84215951541576!3d22.331997547385768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30ad274efe99f821%3A0x5b0387951483fc85!2sSunrise%20Grammar%20School!5e0!3m2!1sen!2sbd!4v1638018143818!5m2!1sen!2sbd"
-                height="150"
-                // style={{ border: "0", width: "100%" }}
-                allowfullscreen=""
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.191233387827!2d90.3943706153878!3d23.74055908459426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b894e42e5373%3A0x4434c59289bd383f!2sInterContinental%20Dhaka%2C%20an%20IHG%20Hotel!5e0!3m2!1sen!2sbd!4v1642091200523!5m2!1sen!2sbd"
+                style={{
+                  border: '0',
+                  height: '150PX',
+                }}
+                allowFullScreen={true}
                 loading="lazy"
               ></iframe>
             </Col>
             <Col lg={3} md={6} sm={12}>
-              <h3>Follow Us On</h3>
-              <FontAwesomeIcon
-                icon={faFacebook}
-                style={{ fontSize: '30px', margin: '10px' }}
-              />
-              <FontAwesomeIcon
-                icon={faLinkedin}
-                style={{ fontSize: '30px', margin: '10px' }}
-              />
-              <FontAwesomeIcon
-                icon={faYoutube}
-                style={{ fontSize: '30px', margin: '10px' }}
-              />
+              <h3 className="text-uppercase">CONTACT US</h3>
+              <p>Phone: +880-02-48313151</p>
+              <p> Mobile: +88-01911358480, +88-01768747470</p>
+              <p> titasmoneyexchange@gmail.com</p>
             </Col>
           </Row>
         </Container>

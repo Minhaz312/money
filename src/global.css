@@ -11,7 +11,10 @@ body {
   overflow-x: -moz-hidden-unscrollable;
   font-family: 'Be Vietnam Pro', sans-serif;
 }
-
+.logo {
+  height: 100px;
+  width: 100px;
+}
 .bg-custom-primary {
   background-color: #1167b1 !important;
 }
@@ -33,4 +36,34 @@ body {
   color: rgb(110, 106, 106);
   letter-spacing: 1px;
   line-height: 1.5;
+  text-align: justify;
+}
+.md-text-center {
+  text-align: center !important;
+}
+.contact-info {
+  display: flex;
+}
+
+@media screen and (max-width: 992px) {
+  .contact-info svg {
+    height: 20px;
+  }
+  .contact-info p {
+    font-size: 13px;
+    padding: 0 !important;
+    margin: 0;
+  }
+  .contact-info img {
+    height: 20px !important;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+  }
+  .fb-linlk svg {
+    height: 20px;
+  }
+  .px-md-0 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
 }
